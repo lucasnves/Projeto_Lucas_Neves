@@ -9,6 +9,7 @@ class A {
         float getA2();
         void MA1();
         void MA2();
+        void MA3();
 };
 
 void A::setA1 (int A1){
@@ -33,4 +34,8 @@ void A::MA1 (){
 
 void A::MA2 (){
     cout << "MA2" <<endl;
+}
+
+void A::MA3 (){
+    cout << "MA3" <<endl;
 }
